@@ -1,0 +1,2 @@
+# nb-admin
+Admin Template
