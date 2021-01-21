@@ -1,0 +1,49 @@
+@import "~@/styles/variable.less";
+
+.work-orders-container {
+  background-color: #fff;
+  padding: 20px;
+
+  .ant-divider {
+    margin: 12px 0;
+  }
+
+  &-tabs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &-left {
+      display: flex;
+      justify-content: flex-start;
+
+      .active {
+        color: @color-theme;
+      }
+    }
+  }
+
+  &-operation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+
+    &-sync {
+      cursor: pointer;
+      font-size: 22px;
+      color: #999 !important;
+      transition: color 0.3s;
+
+      &:hover {
+        color: #666 !important;
+      }
+    }
+
+    &-filter {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+  }
+}

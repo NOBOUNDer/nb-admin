@@ -1,0 +1,46 @@
+@import "../../styles/variable";
+
+.frame-container {
+  .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item,
+  .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu {
+    margin-top: -2px;
+  }
+
+  .trigger {
+    font-size: 18px;
+    line-height: 64px;
+    padding: 0 24px;
+    cursor: pointer;
+    transition: color 0.3s;
+
+    &:hover {
+      color: #1890ff;
+    }
+  }
+
+  .header-dropdown {
+    display: inline-block;
+    float: right;
+    margin-right: 20px;
+
+    .anticon-down {
+      color: @color-theme;
+    }
+
+    .header-username {
+      margin-left: 5px;
+    }
+  }
+
+  .site-layout .site-layout-background {
+    //background: #fff;
+  }
+
+  .ant-layout {
+    min-height: 100vh;
+
+    .ant-layout-sider {
+      background: #fff;
+    }
+  }
+}
